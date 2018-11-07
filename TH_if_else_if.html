@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>If..else..if</title>
+</head>
+<body>
+<script>
+    var name = prompt("Nhap ten dang nhap vao đây");
+    if(name == "Admin") {
+        var pass = prompt("Nhap tiep password");
+        if (pass == "Master")
+            alert("Em chao anh Admin");
+        else if (pass == "")
+            alert("May *eo nhap gi vao a");
+        else
+            alert("Sai me no pass roi");
+    }
+    else if (name == "")
+        alert("Nhap cai ten cung deo xong");
+    else
+        alert("Bo deo biet may");
+</script>
+</body>
+</html>
